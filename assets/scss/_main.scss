@@ -8,7 +8,10 @@ main {
 }
 
 #main-left {
-  background-size: calc(100vw / 2 * .85);
+  padding: .75rem;
+  background-origin: content-box;
+  background-size: contain;
+  
   @extend %bgReset;
 }
 
