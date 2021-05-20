@@ -1,0 +1,11 @@
+header {
+  @extend %gridCenter;
+  font-size: 2.05rem;
+  padding: .5em;
+  background-image: radial-gradient(rgb(0, 128, 128), rgb(0, 150, 150));
+
+  h1 {
+    text-align: center;
+    color: white;
+  }
+}

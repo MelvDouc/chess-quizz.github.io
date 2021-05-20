@@ -1,0 +1,11 @@
+@media only screen and (orientation: portrait) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #main-left {
+    min-height: 100vmin;
+    background-size: 85%;
+  }
+}

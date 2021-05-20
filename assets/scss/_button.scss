@@ -1,0 +1,23 @@
+button {
+  all: unset;
+  @extend %gridCenter;
+  cursor: pointer;
+  user-select: none;
+  touch-action: pinch-zoom;
+  font-size: 1.15rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: $fontFamily1;
+  border-radius: 99999px;
+  padding: .5em .75em;
+  color: white;
+  background-image: radial-gradient(teal, lighten(teal, 5%));
+
+  &:hover {
+    background-image: radial-gradient(lighten(teal, 5%), teal);
+  }
+
+  &:active {
+    transform: scale(.975);
+  }
+}
