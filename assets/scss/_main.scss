@@ -8,7 +8,7 @@ main {
 }
 
 #main-left {
-  padding: .75rem;
+  padding: 1.5rem .75rem;
   background-origin: content-box;
   background-size: contain;
   
@@ -27,10 +27,14 @@ main {
     font-size: 1.2rem;
     padding: .66em;
     font-weight: 700;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
 
   form {
     background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 
   ul {
