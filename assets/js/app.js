@@ -12,8 +12,8 @@ let userAnswer = "";
 let userScore = 0;
 
 function setQuestion() {
-  section_mainLeft.style.backgroundImage = `url(./assets/img/positions/pos-${questionIndex + 1}.jpg)`;
-  section_question.innerHTML = data[questionIndex].question;
+  section_mainLeft.style.backgroundImage = `url(./assets/img/positions/pos-${data[questionIndex].imageIndex}.jpg)`;
+  section_question.innerHTML = data[questionIndex].question.replace(" ?", "&nbsp;?");
   const choices = data[questionIndex].answers;
   section_choices.innerHTML = "";
   choices.forEach((choice, i) => {
