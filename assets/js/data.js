@@ -114,9 +114,9 @@ export const data = [
       "parce que c'est le coup thématique de l'espagnole",
       "pour clouer le cavalier en c6 au roi",
       "pour empêcher Pg6",
-      "pour endommager le structure de pions"
+      "pour endommager la structure de pions"
     ],
-    answer: "pour endommager le structure de pions",
+    answer: "pour endommager la structure de pions",
     imageIndex: 11
   },
   {
@@ -130,18 +130,18 @@ export const data = [
     answer: "Fg6",
     imageIndex: 12
   },
-  /* {
-    question: "",
-    answers: [
-      "",
-      "",
-      "",
-      ""
-    ],
-    answer: "",
-    imageIndex: 0
-  },
   {
+    question: "Que devraient jouer les blancs ?",
+    answers: [
+      "Fe3",
+      "Ff4",
+      "Fc4",
+      "Fe2"
+    ],
+    answer: "Ff4",
+    imageIndex: 13
+  },
+  /* {
     question: "",
     answers: [
       "",

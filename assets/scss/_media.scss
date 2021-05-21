@@ -8,4 +8,8 @@
     min-height: 100vmin;
     background-size: 85%;
   }
+
+  #choices {
+    grid-template-columns: 1fr;
+  }
 }
