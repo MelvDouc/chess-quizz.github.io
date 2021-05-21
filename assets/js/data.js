@@ -55,7 +55,7 @@ export const data = [
     imageIndex: 5
   },
   {
-    question: "Comment défendre le pion b",
+    question: "Comment défendre le pion b ?",
     answers: [
       "en le bougeant",
       "avec la dame",
@@ -98,7 +98,7 @@ export const data = [
     imageIndex: 9
   },
   {
-    question: "Lequel des plans suivants est le <u>moins</u> probable pour les blancs ?",
+    question: "Lequel des plans suivants est le <em>moins</em> probable pour les blancs ?",
     answers: [
       "avancer à l'aile-dame",
       "avancer à l'aile-roi",
@@ -127,7 +127,7 @@ export const data = [
       "Cg5",
       "Ch2"
     ],
-    answer: "Fg6",
+    answer: "Fh6",
     imageIndex: 12
   },
   {
@@ -141,29 +141,29 @@ export const data = [
     answer: "Ff4",
     imageIndex: 13
   },
+  {
+    question: "Quel est le <em>pire</em> coup pour les blancs ici ?",
+    answers: [
+      "Cd5",
+      "f3",
+      "De1",
+      "Fd3"
+    ],
+    answer: "Cd5",
+    imageIndex: 14
+  },
+  {
+    question: "Pourquoi mettre le fou en d3 plutôt qu'ailleurs ?",
+    answers: [
+      "pour contrôler f5",
+      "parce que c'est une case active",
+      "parce que Fb5+ est un mauvais coup",
+      "pour roquer"
+    ],
+    answer: "pour contrôler f5",
+    imageIndex: 15
+  },
   /* {
-    question: "",
-    answers: [
-      "",
-      "",
-      "",
-      ""
-    ],
-    answer: "",
-    imageIndex: 0
-  },
-  {
-    question: "",
-    answers: [
-      "",
-      "",
-      "",
-      ""
-    ],
-    answer: "",
-    imageIndex: 0
-  },
-  {
     question: "",
     answers: [
       "",

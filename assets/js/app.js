@@ -34,7 +34,7 @@ function getUserAnswer() {
 function saveAnswer() {
   userAnswer = getUserAnswer();
   if (userAnswer === data[questionIndex].answer)
-    userScore++;
+    ++userScore;
 }
 
 setQuestion();
